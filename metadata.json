@@ -1,0 +1,6 @@
+{
+  "name": "Idle Machine Log",
+  "description": "Knitting floor date-wise machine stoppage and idle time logging system with supervisor authentication, edit history audit logs, dashboard analytics, and CSV export.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

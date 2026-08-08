@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #f8fafc; /* slate-50 */
+  --panel: #ffffff;
+  --panel-2: #f1f5f9; /* slate-100 */
+  --panel-dark: #0f172a; /* slate-900 */
+  --text: #0f172a; /* slate-900 */
+  --text-dim: #64748b; /* slate-500 */
+  --indigo: #4f46e5; /* indigo-600 */
+  --indigo-light: #e0e7ff; /* indigo-100 */
+  --indigo-dark: #3730a3; /* indigo-800 */
+  --emerald: #10b981; /* emerald-500 */
+  --rose: #f43f5e; /* rose-500 */
+  --amber: #f59e0b; /* amber-500 */
+  --border: #e2e8f0; /* slate-200 */
+  --radius: 12px;
+}
+
+body {
+  margin: 0;
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.font-oswald {
+  font-family: 'Oswald', sans-serif;
+}
+
+.font-mono {
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg);
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
